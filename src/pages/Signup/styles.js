@@ -15,9 +15,9 @@ export const Container = styled.div`
     border: none;
     padding: 5px;
     margin-top: 10px;
-    font-weight: bold;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s, box-shadow;
+    font-weight: bold;
     width: 100%;
 
     &:hover {
@@ -38,7 +38,7 @@ export const Container = styled.div`
 
 export const Form = styled.div`
   display: flex;
-  flex: 1;
+  flex: 12;
   flex-direction: column;
   input {
     border-radius: 1px;
@@ -48,33 +48,14 @@ export const Form = styled.div`
     margin: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  a {
-    flex: 1;
-  }
 `;
 
-export const FormSocialMedia = styled.div`
-  display: Flex;
-  flex-direction: row;
-`;
-
-export const LoginButton = styled.button`
+export const CreateButton = styled.button`
   background: #ff6b6b;
   color: #fff;
 `;
 
-export const SignButton = styled.button`
+export const IHaveButton = styled.button`
   background: #ffe66d;
   color: #fff;
-`;
-export const FacebookButton = styled.button`
-  background: #4267b2;
-  color: #fff;
-  margin-right: 2px;
-`;
-export const LinkedinButton = styled.button`
-  background: #2867b2;
-  color: #fff;
-  margin-left: 2px;
-  box-shadow: 0 0 1px #000;
 `;

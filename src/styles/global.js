@@ -8,16 +8,16 @@ export default createGlobalStyle`
   outline:0px;
   box-sizing:border-box;
 }
-
+s
 html,body ,#root{
   min-height:100%;
 }
 
 h1 {
-    color: #ff6b6b;
+    color: #776969;
   }
   
 body{
-  background: #1A535C;
+  background: #FFE66D;
 }
 `;
