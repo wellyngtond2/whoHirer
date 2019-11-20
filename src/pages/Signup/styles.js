@@ -56,6 +56,6 @@ export const CreateButton = styled.button`
 `;
 
 export const IHaveButton = styled.button`
-  background: #ffe66d;
+  background: #4ecdc4;
   color: #fff;
 `;

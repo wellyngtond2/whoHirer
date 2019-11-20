@@ -64,7 +64,7 @@ export const LoginButton = styled.button`
 `;
 
 export const SignButton = styled.button`
-  background: #ffe66d;
+  background: #4ecdc4;
   color: #fff;
 `;
 export const FacebookButton = styled.button`

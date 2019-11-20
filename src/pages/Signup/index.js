@@ -7,9 +7,13 @@ export default function Login() {
     <Container>
       <Form>
         <h1>Create Account</h1>
-        <input type="text" placeholder="Full Name"></input>
-        <input type="text" placeholder="E-mail"></input>
-        <input type="password" placeholder="Password"></input>
+        <input id="signupFullName" type="text" placeholder="Full Name"></input>
+        <input id="signupEmail" type="text" placeholder="E-mail"></input>
+        <input
+          id="signupPassword"
+          type="password"
+          placeholder="Password"
+        ></input>
         <Link to="/">
           {" "}
           <CreateButton>Create</CreateButton>
