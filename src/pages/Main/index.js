@@ -5,9 +5,9 @@ import {
   Form,
   SubmitButton,
   Employers,
-  StarAverage,
-  ContainerEmployers
+  StarAverage
 } from "./styles";
+import { Container as ContainerEmployers } from "../../components/Employers/Container";
 
 const employers = [
   {
